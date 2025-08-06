@@ -1,0 +1,180 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "slug": "the-silent-covenant",
+      "title": "The Silent Covenant",
+      "subtitle": "Guide de Méditation Profonde et de Connexion Spirituelle",
+      "price": 29.99,
+      "currency": "EUR",
+      "formats": ["PDF", "ePub", "Audio MP3"],
+      "category": "Méditation",
+      "featured": true,
+      "images": [
+        "https://images.pexels.com/photos/3760607/pexels-photo-3760607.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/4557646/pexels-photo-4557646.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/6334976/pexels-photo-6334976.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "short_description": "Plongez dans les secrets millénaires de la méditation silencieuse avec ce guide complet qui vous accompagnera vers une connexion spirituelle profonde et transformatrice.",
+      "long_description": "The Silent Covenant est bien plus qu'un simple guide de méditation. C'est un véritable compagnon spirituel qui vous invite à découvrir les mystères du silence intérieur et de la connexion sacrée. Basé sur des traditions mystiques ancestrales et des pratiques éprouvées, ce guide vous offre un chemin structuré vers l'éveil de votre conscience.\n\nÀ travers des exercices progressifs, des méditations guidées et des enseignements profonds, vous apprendrez à cultiver le silence sacré qui réside en vous. Ce guide unique allie sagesse traditionnelle et approche moderne, vous permettant d'intégrer ces pratiques transformatrices dans votre vie quotidienne.\n\nChaque chapitre vous guide pas à pas vers une compréhension plus profonde de votre nature spirituelle, vous aidant à développer une pratique méditative authentique et durable. Les techniques présentées ont été soigneusement sélectionnées pour leur efficacité et leur accessibilité à tous les niveaux de pratique.",
+      "includes": [
+        "Guide complet de 120 pages en PDF haute qualité",
+        "15 méditations guidées en audio MP3 (durée totale : 4h)",
+        "Carnet de pratique personnalisable",
+        "Calendrier de méditation sur 30 jours",
+        "Bonus : Collection de mantras sacrés",
+        "Accès exclusif à la communauté en ligne",
+        "Mises à jour gratuites à vie"
+      ],
+      "tags": ["méditation", "spiritualité", "silence", "éveil", "transformation"],
+      "sku": "LSP-TSC-001",
+      "release_date": "2024-12-15",
+      "language": "Français",
+      "pages": 120,
+      "file_size": "45 MB",
+      "delivery": "Téléchargement instantané",
+      "author": "Maître Sarah Lumière"
+    },
+    {
+      "id": 2,
+      "slug": "sacred-duas-collection",
+      "title": "Collection des Du'as Sacrées",
+      "subtitle": "108 Invocations pour la Protection et la Guidance Divine",
+      "price": 19.99,
+      "currency": "EUR",
+      "formats": ["PDF", "Audio MP3"],
+      "category": "Prières & Du'as",
+      "featured": true,
+      "images": [
+        "https://images.pexels.com/photos/6334976/pexels-photo-6334976.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/4557646/pexels-photo-4557646.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/3760607/pexels-photo-3760607.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "short_description": "Une collection précieuse de 108 du'as authentiques pour la protection, la guidance et la connection avec le Divin, accompagnées de leurs significations et contextes d'utilisation.",
+      "long_description": "Cette collection unique rassemble 108 du'as (invocations) soigneusement sélectionnées pour leur pouvoir spirituel et leur authenticité. Chaque du'a est présentée avec sa translittération, sa traduction française, et ses contextes d'utilisation traditionnels.\n\nCe recueil précieux vous accompagnera dans tous les moments de votre vie spirituelle : protection quotidienne, moments de difficulté, gratitude, demandes de guidance, et élévation spirituelle. Les du'as sont organisées par thèmes pour faciliter votre pratique et votre compréhension.\n\nChaque invocation est accompagnée d'explications détaillées sur son origine, sa signification profonde, et les meilleurs moments pour la réciter. Cette approche éducative vous permet de développer une relation authentique et consciente avec ces paroles sacrées.",
+      "includes": [
+        "Recueil de 108 du'as authentiques en PDF",
+        "Traductions françaises détaillées",
+        "Guide de prononciation phonétique",
+        "Enregistrements audio de chaque du'a",
+        "Classification thématique des invocations",
+        "Calendrier de récitation suggéré",
+        "Bonus : Histoire et contexte de chaque du'a"
+      ],
+      "tags": ["du'as", "invocations", "protection", "guidance", "islam", "spiritualité"],
+      "sku": "LSP-SDC-002",
+      "release_date": "2024-11-28",
+      "language": "Français/Arabe",
+      "pages": 85,
+      "file_size": "78 MB",
+      "delivery": "Téléchargement instantané",
+      "author": "Sheikh Ahmad Al-Nouri"
+    },
+    {
+      "id": 3,
+      "slug": "lunar-rituals-guide",
+      "title": "Guide des Rituels Lunaires",
+      "subtitle": "Harmonisez-vous avec les Cycles de la Lune pour la Transformation Personnelle",
+      "price": 24.99,
+      "currency": "EUR",
+      "formats": ["PDF", "ePub"],
+      "category": "Rituels Sacrés",
+      "featured": false,
+      "images": [
+        "https://images.pexels.com/photos/4557646/pexels-photo-4557646.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/3760607/pexels-photo-3760607.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/6334976/pexels-photo-6334976.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "short_description": "Découvrez l'art ancestral des rituels lunaires et apprenez à harmoniser votre énergie avec les phases de la lune pour une transformation spirituelle profonde.",
+      "long_description": "Depuis la nuit des temps, l'humanité a reconnu l'influence puissante de la lune sur notre vie spirituelle et émotionnelle. Ce guide complet vous initie aux secrets des rituels lunaires traditionnels, adaptés à la pratique moderne.\n\nChaque phase lunaire offre des opportunités uniques de croissance, de guérison et de manifestation. Vous découvrirez des rituels spécifiques pour la nouvelle lune (nouveaux départs), la lune croissante (croissance), la pleine lune (culmination et gratitude), et la lune décroissante (libération et purification).\n\nCe guide pratique inclut des rituels pour tous les niveaux, des cérémonies simples aux pratiques plus élaborées, toutes respectueuses des traditions anciennes tout en étant accessibles au pratiquant moderne.",
+      "includes": [
+        "Guide complet des 13 lunes de l'année",
+        "Rituels détaillés pour chaque phase lunaire",
+        "Calendrier lunaire personnalisable",
+        "Liste des correspondances magiques",
+        "Instructions pour créer votre autel lunaire",
+        "Méditations spéciales pour chaque phase",
+        "Bonus : Guide des herbes et cristaux lunaires"
+      ],
+      "tags": ["rituels", "lune", "cycles", "magie", "transformation", "féminin sacré"],
+      "sku": "LSP-LRG-003",
+      "release_date": "2024-10-31",
+      "language": "Français",
+      "pages": 95,
+      "file_size": "32 MB",
+      "delivery": "Téléchargement instantané",
+      "author": "Luna Céleste"
+    },
+    {
+      "id": 4,
+      "slug": "chakra-awakening-journey",
+      "title": "Éveil des Chakras",
+      "subtitle": "Voyage Initiatique à travers les 7 Centres d'Énergie",
+      "price": 34.99,
+      "currency": "EUR",
+      "formats": ["PDF", "Audio MP3", "Vidéo MP4"],
+      "category": "Développement Spirituel",
+      "featured": true,
+      "images": [
+        "https://images.pexels.com/photos/6334976/pexels-photo-6334976.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/4557646/pexels-photo-4557646.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/3760607/pexels-photo-3760607.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "short_description": "Un voyage transformateur à travers les 7 chakras principaux avec techniques de guérison, méditations guidées et exercices pratiques pour l'éveil énergétique complet.",
+      "long_description": "L'Éveil des Chakras vous guide dans un voyage initiatique profond à travers vos 7 centres énergétiques principaux. Ce programme complet combine la sagesse ancestrale des traditions orientales avec les découvertes modernes sur l'énergie subtile.\n\nChaque chakra est exploré en détail : ses caractéristiques, ses déséquilibres courants, et surtout les techniques spécifiques pour son harmonisation et son éveil. Vous découvrirez des méditations guidées, des exercices de visualisation, des mantras sacrés, et des pratiques énergétiques pour chaque centre.\n\nCe programme progressif de 7 semaines vous permet d'intégrer en douceur ces pratiques transformatrices dans votre quotidien, créant un équilibre énergétique durable et une expansion de conscience authentique.",
+      "includes": [
+        "Guide détaillé de 150 pages sur les 7 chakras",
+        "7 méditations guidées spécialisées (MP3)",
+        "14 vidéos d'exercices énergétiques (MP4)",
+        "Journal de progression personnalisé",
+        "Cartes oracle des chakras imprimables",
+        "Guide des pierres et cristaux pour chaque chakra",
+        "Programme de 49 jours d'éveil progressif",
+        "Bonus : Séance de guérison énergétique audio"
+      ],
+      "tags": ["chakras", "énergie", "guérison", "méditation", "éveil", "équilibre"],
+      "sku": "LSP-CAJ-004",
+      "release_date": "2024-09-15",
+      "language": "Français",
+      "pages": 150,
+      "file_size": "680 MB",
+      "delivery": "Téléchargement instantané",
+      "author": "Maître Ananda Devi"
+    },
+    {
+      "id": 5,
+      "slug": "crystal-healing-mastery",
+      "title": "Maîtrise de la Guérison par les Cristaux",
+      "subtitle": "L'Art Ancestral de Guérir avec les Énergies Cristallines",
+      "price": 27.99,
+      "currency": "EUR",
+      "formats": ["PDF", "Audio MP3"],
+      "category": "Guérison Énergétique",
+      "featured": false,
+      "images": [
+        "https://images.pexels.com/photos/4557646/pexels-photo-4557646.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/6334976/pexels-photo-6334976.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "https://images.pexels.com/photos/3760607/pexels-photo-3760607.jpeg?auto=compress&cs=tinysrgb&w=800"
+      ],
+      "short_description": "Apprenez l'art millénaire de la guérison par les cristaux avec ce guide complet incluant techniques de soin, propriétés détaillées et protocoles thérapeutiques.",
+      "long_description": "La guérison par les cristaux est l'une des pratiques thérapeutiques les plus anciennes de l'humanité. Ce guide complet vous initie aux secrets de cette science sacrée, vous enseignant comment utiliser les énergies cristallines pour la guérison physique, émotionnelle et spirituelle.\n\nVous découvrirez les propriétés uniques de plus de 50 cristaux et pierres précieuses, leurs applications thérapeutiques spécifiques, et les techniques traditionnelles pour amplifier leur pouvoir de guérison. Le guide inclut des protocoles détaillés pour diverses problématiques de santé.\n\nCe manuel pratique vous enseigne également la purification, la programmation et l'activation des cristaux, ainsi que la création d'élixirs cristallins et d'espaces de guérison harmonieux.",
+      "includes": [
+        "Encyclopedia de 50+ cristaux avec propriétés détaillées",
+        "Protocoles de guérison pour 25+ conditions",
+        "Techniques de purification et d'activation",
+        "Guide de création d'élixirs cristallins",
+        "Méthodes de méditation avec les cristaux",
+        "Plans de grilles de cristaux thérapeutiques",
+        "Bonus : Cartes de référence imprimables"
+      ],
+      "tags": ["cristaux", "guérison", "lithothérapie", "énergie", "thérapie", "bien-être"],
+      "sku": "LSP-CHM-005",
+      "release_date": "2024-08-20",
+      "language": "Français",
+      "pages": 110,
+      "file_size": "55 MB",
+      "delivery": "Téléchargement instantané",
+      "author": "Maître Cristal-Lyn"
+    }
+  ]
+}

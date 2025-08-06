@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="productPageTitle">Produit - Lumière Spirituelle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">✨ Lumière Spirituelle</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="catalogue.html" class="nav-link">Catalogue</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Accueil</a> 
+            <span class="breadcrumb-separator">/</span>
+            <a href="catalogue.html">Catalogue</a>
+            <span class="breadcrumb-separator">/</span>
+            <span id="breadcrumbProduct">Produit</span>
+        </div>
+    </nav>
+
+    <!-- Product Details -->
+    <section class="product-details">
+        <div class="container">
+            <div class="product-layout">
+                <div class="product-gallery">
+                    <div class="main-image">
+                        <img id="mainProductImage" src="" alt="" loading="lazy">
+                    </div>
+                    <div class="thumbnail-images" id="thumbnailImages">
+                        <!-- Miniatures seront ajoutées dynamiquement -->
+                    </div>
+                </div>
+                
+                <div class="product-info">
+                    <div class="product-header">
+                        <h1 class="product-title" id="productTitle"></h1>
+                        <p class="product-subtitle" id="productSubtitle"></p>
+                        <div class="product-price" id="productPrice"></div>
+                    </div>
+
+                    <div class="product-formats" id="productFormats"></div>
+
+                    <div class="product-actions">
+                        <button class="btn-primary btn-large" id="downloadBtn">Télécharger Maintenant</button>
+                        <button class="btn-secondary" onclick="history.back()">← Retour au catalogue</button>
+                    </div>
+
+                    <div class="product-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Catégorie:</span>
+                            <span class="meta-value" id="productCategory"></span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">SKU:</span>
+                            <span class="meta-value" id="productSku"></span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Date de sortie:</span>
+                            <span class="meta-value" id="productReleaseDate"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Description -->
+            <div class="product-content">
+                <div class="content-section">
+                    <h3>Description Détaillée</h3>
+                    <div class="product-description" id="productDescription"></div>
+                </div>
+
+                <div class="content-section">
+                    <h3>Ce que vous recevrez</h3>
+                    <ul class="includes-list" id="productIncludes"></ul>
+                </div>
+
+                <div class="content-section">
+                    <h3>Informations Techniques</h3>
+                    <div class="tech-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">Langue:</span>
+                            <span class="spec-value" id="productLanguage"></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Pages:</span>
+                            <span class="spec-value" id="productPages"></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Taille du fichier:</span>
+                            <span class="spec-value" id="productFileSize"></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Livraison:</span>
+                            <span class="spec-value" id="productDelivery"></span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Auteur:</span>
+                            <span class="spec-value" id="productAuthor"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products -->
+    <section class="related-products">
+        <div class="container">
+            <h3 class="section-title">Autres Guides Spirituels</h3>
+            <div class="products-grid" id="relatedProducts">
+                <!-- Produits liés seront chargés dynamiquement -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Lumière Spirituelle</h4>
+                    <p>Votre guide vers l'éveil spirituel</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Liens Utiles</h4>
+                    <ul class="footer-links">
+                        <li><a href="catalogue.html">Catalogue</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="#support">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Légal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#privacy">Politique de confidentialité</a></li>
+                        <li><a href="#terms">Conditions d'utilisation</a></li>
+                        <li><a href="#refund">Politique de remboursement</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li>contact@lumierespirituelle.fr</li>
+                        <li>+33 (0)1 23 45 67 89</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Lumière Spirituelle. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div class="modal-overlay" id="productModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-body">
+                <div class="modal-images">
+                    <div class="carousel-container">
+                        <div class="carousel-track" id="carouselTrack">
+                            <!-- Images seront ajoutées dynamiquement -->
+                        </div>
+                        <button class="carousel-btn prev" id="prevBtn">&lt;</button>
+                        <button class="carousel-btn next" id="nextBtn">&gt;</button>
+                    </div>
+                    <div class="carousel-indicators" id="carouselIndicators">
+                        <!-- Indicateurs seront ajoutés dynamiquement -->
+                    </div>
+                </div>
+                <div class="modal-info">
+                    <div class="product-header">
+                        <h2 class="product-title" id="modalTitle"></h2>
+                        <p class="product-subtitle" id="modalSubtitle"></p>
+                        <div class="product-price" id="modalPrice"></div>
+                    </div>
+                    
+                    <div class="product-formats" id="modalFormats"></div>
+                    
+                    <div class="product-description">
+                        <h4>Description</h4>
+                        <p id="modalDescription"></p>
+                    </div>
+                    
+                    <div class="product-includes" id="modalIncludes">
+                        <h4>Ce guide inclut :</h4>
+                        <ul id="modalIncludesList"></ul>
+                    </div>
+                    
+                    <div class="modal-actions">
+                        <button class="btn-primary" id="modalDownload">Télécharger</button>
+                        <a href="#" class="btn-secondary" id="modalViewMore">Voir plus de détails</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialiser la page produit
+        document.addEventListener('DOMContentLoaded', function() {
+            initProductPage();
+        });
+    </script>
+</body>
+</html>

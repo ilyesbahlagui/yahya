@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue - Lumière Spirituelle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">✨ Lumière Spirituelle</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="catalogue.html" class="nav-link active">Catalogue</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#about" class="nav-link">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Catalogue Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Notre Catalogue Spirituel</h1>
+            <p class="page-subtitle">Découvrez notre collection complète de guides et ressources spirituelles</p>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-grid" id="catalogueProducts">
+                <!-- Les produits seront chargés dynamiquement -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Modal -->
+    <div class="modal-overlay" id="productModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-body">
+                <div class="modal-images">
+                    <div class="carousel-container">
+                        <div class="carousel-track" id="carouselTrack">
+                            <!-- Images seront ajoutées dynamiquement -->
+                        </div>
+                        <button class="carousel-btn prev" id="prevBtn">&lt;</button>
+                        <button class="carousel-btn next" id="nextBtn">&gt;</button>
+                    </div>
+                    <div class="carousel-indicators" id="carouselIndicators">
+                        <!-- Indicateurs seront ajoutés dynamiquement -->
+                    </div>
+                </div>
+                <div class="modal-info">
+                    <div class="product-header">
+                        <h2 class="product-title" id="modalTitle"></h2>
+                        <p class="product-subtitle" id="modalSubtitle"></p>
+                        <div class="product-price" id="modalPrice"></div>
+                    </div>
+                    
+                    <div class="product-formats" id="modalFormats"></div>
+                    
+                    <div class="product-description">
+                        <h4>Description</h4>
+                        <p id="modalDescription"></p>
+                    </div>
+                    
+                    <div class="product-includes" id="modalIncludes">
+                        <h4>Ce guide inclut :</h4>
+                        <ul id="modalIncludesList"></ul>
+                    </div>
+                    
+                    <div class="modal-actions">
+                        <button class="btn-primary" id="modalDownload">Télécharger</button>
+                        <a href="#" class="btn-secondary" id="modalViewMore">Voir plus de détails</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Lumière Spirituelle</h4>
+                    <p>Votre guide vers l'éveil spirituel</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Liens Utiles</h4>
+                    <ul class="footer-links">
+                        <li><a href="catalogue.html">Catalogue</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="#support">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Légal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#privacy">Politique de confidentialité</a></li>
+                        <li><a href="#terms">Conditions d'utilisation</a></li>
+                        <li><a href="#refund">Politique de remboursement</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li>contact@lumierespirituelle.fr</li>
+                        <li>+33 (0)1 23 45 67 89</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Lumière Spirituelle. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialiser la page catalogue
+        document.addEventListener('DOMContentLoaded', function() {
+            initCatalogue();
+        });
+    </script>
+</body>
+</html>

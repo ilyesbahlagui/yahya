@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumière Spirituelle - Guides et Ressources Spirituelles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">✨ Lumière Spirituelle</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="catalogue.html" class="nav-link">Catalogue</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Éveillez votre Lumière Intérieure</h1>
+                <p class="hero-subtitle">Découvrez notre collection de guides spirituels, méditations et ressources pour votre chemin vers l'éveil.</p>
+                <a href="catalogue.html" class="cta-button">Découvrir nos Guides</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.pexels.com/photos/3760607/pexels-photo-3760607.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Méditation spirituelle" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Nos Guides Phares</h2>
+            <div class="products-grid" id="featuredProducts">
+                <!-- Les produits seront chargés dynamiquement -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Explorez par Catégorie</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">🧘</div>
+                    <h3>Méditation</h3>
+                    <p>Guides et techniques de méditation pour tous niveaux</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">📿</div>
+                    <h3>Prières & Du'as</h3>
+                    <p>Collections de prières et invocations sacrées</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">🌙</div>
+                    <h3>Rituels Sacrés</h3>
+                    <p>Pratiques spirituelles et rituels traditionnels</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">✨</div>
+                    <h3>Développement Spirituel</h3>
+                    <p>Ressources pour l'éveil de la conscience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">À Propos de Nous</h2>
+                <p class="about-text">
+                    Lumière Spirituelle est née de la passion pour le partage de la sagesse ancestrale et des pratiques spirituelles authentiques. 
+                    Nous créons avec amour des guides numériques de qualité pour accompagner votre chemin vers l'éveil spirituel et la paix intérieure.
+                </p>
+                <p class="about-text">
+                    Chaque ressource est soigneusement conçue pour vous offrir des outils pratiques et inspirants, 
+                    alliant tradition millénaire et approche moderne du développement personnel.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Modal -->
+    <div class="modal-overlay" id="productModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-body">
+                <div class="modal-images">
+                    <div class="carousel-container">
+                        <div class="carousel-track" id="carouselTrack">
+                            <!-- Images seront ajoutées dynamiquement -->
+                        </div>
+                        <button class="carousel-btn prev" id="prevBtn">&lt;</button>
+                        <button class="carousel-btn next" id="nextBtn">&gt;</button>
+                    </div>
+                    <div class="carousel-indicators" id="carouselIndicators">
+                        <!-- Indicateurs seront ajoutés dynamiquement -->
+                    </div>
+                </div>
+                <div class="modal-info">
+                    <div class="product-header">
+                        <h2 class="product-title" id="modalTitle"></h2>
+                        <p class="product-subtitle" id="modalSubtitle"></p>
+                        <div class="product-price" id="modalPrice"></div>
+                    </div>
+                    
+                    <div class="product-formats" id="modalFormats"></div>
+                    
+                    <div class="product-description">
+                        <h4>Description</h4>
+                        <p id="modalDescription"></p>
+                    </div>
+                    
+                    <div class="product-includes" id="modalIncludes">
+                        <h4>Ce guide inclut :</h4>
+                        <ul id="modalIncludesList"></ul>
+                    </div>
+                    
+                    <div class="modal-actions">
+                        <button class="btn-primary" id="modalDownload">Télécharger</button>
+                        <a href="#" class="btn-secondary" id="modalViewMore">Voir plus de détails</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Lumière Spirituelle</h4>
+                    <p>Votre guide vers l'éveil spirituel</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Liens Utiles</h4>
+                    <ul class="footer-links">
+                        <li><a href="catalogue.html">Catalogue</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#support">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Légal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#privacy">Politique de confidentialité</a></li>
+                        <li><a href="#terms">Conditions d'utilisation</a></li>
+                        <li><a href="#refund">Politique de remboursement</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 id="contact">Contact</h4>
+                    <ul class="footer-links">
+                        <li>contact@lumierespirituelle.fr</li>
+                        <li>+33 (0)1 23 45 67 89</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Lumière Spirituelle. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
